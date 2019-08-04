@@ -125,7 +125,7 @@ a:hover {
 }
 
 a:any-link {
- text-decoration:none !important;
+text-decoration:none !important;
 color: black;
 transition: 0.3s;
 
