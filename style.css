@@ -34,6 +34,11 @@ canvas {
 
 }
 
+.footertxt {
+  bottom:0;
+  position: relative;
+}
+
 .footer {
   bottom: 0;
   position: relative;
