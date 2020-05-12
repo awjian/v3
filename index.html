@@ -4,10 +4,10 @@
 <head profile="/index">
 <link rel="icon" 
       type="image/png" 
-      href="sunflower.png">
+      href="wave.png">
 </head>
 <head>
-	
+  
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,51 +36,84 @@
 </head>
 
 <body>
-	<div class="container-fluid">
-		<div class="row hello">
-			<h1 class="lg center"><span> Hello! I'm Amy. 🌻 </span></h1>
-		</div>
-		<div class="row" id = "intro">
-			<div class="col-lg-6 me">
-				<img src="amy.jpg" class ="img">
-			</div>
-			<div class="col-lg-6 desc">
-				<div class="row desc">
-					<h1 class= "lg" id = "intro2" margin= 0> This is me.</h1>
-				</div>
-				<br>
-				<div class="row desc" margin ="0px">
-					<h2 class="med"> Previously: <br> <span class = "highlight"> <a href="https://youtu.be/OerscxzGfWI" target="_blank"> Data/Product @TunnelBear</a></span> 
-					<br> 
-					Product @Vidyard</h2>
-					<br>
-				</div>
-				<div class="row desc" margin ="0px">
-					<h2 class="med"> Currently: <br> Backend @PlanGrid </h2>
-				</div>
-				<div class="row desc" margin = "0px">
-					<h2 class="med"><br> Like what you see? I'm looking for product internship opportunities for Fall 2020. Let's chat! </h2>
-				</div>
-				<br>
-				<div class="row desc" margin="0px" id="links">
-					
-						<h3 class="md center"><span class="highlight"><a href="resume.pdf" target="_blank"> resume </a></span></h3>
-					
-						<h3 class="md center"><span class="highlight"><a href= "https://www.linkedin.com/in/amyjian/" target="_blank">  linkedin </a></span></h3>
-					
-						<h3 class="md center"><span class="highlight"><a href="mailto:amy.jian@uwaterloo.ca" target="_blank"> email </a></span></h3>
-					
-						<h3 class="md center"><span class="highlight"><a href="https://medium.com/@amywjian" target="_blank"> medium </a></span></h3>
-					
-						<h3 class="md center"><span class="highlight"><a href="https://instagram.com/16weeksofinternships" target="_blank"> social </a></span></h3>
-					
-				</div>
-			</div>
-		</div>
-		
-	</div>
+  <div class="container-fluid">
+    <div class="row hello">
+      <div class="col-lg-6 lg center" id="hello"><h1><span> Hello! I'm Amy. 🌻 </span></h1></div>
+      <div class="col-lg-6 center" id="links">
+        <div class="row" id="links">
+          <h3 class="md center"><span class="highlight"><a href="https://instagram.com/ahealthyquarantine" target="_blank"> wellness </a></span></h3>
+        <h3 class="md center"><span class="highlight"><a href="resume.pdf" target="_blank"> resume </a></span></h3>
+          
+        <h3 class="md center"><span class="highlight"><a href= "https://www.linkedin.com/in/amyjian/" target="_blank">  linkedin </a></span></h3>
+          
+        <h3 class="md center"><span class="highlight"><a href="mailto:amy.jian@uwaterloo.ca" target="_blank"> email </a></span></h3>
+          
+        <h3 class="md center"><span class="highlight"><a href="https://medium.com/@amywjian" target="_blank"> medium </a></span></h3>
+      </div>
+      </div>
+
+    </div>
+    <div class="row" id = "intro">
+      <div class="col-lg-6 me">
+        <img src="amy.jpg" class ="img">
+      </div>
+      <div class="col-lg-6 desc">
+        <div class="content">
+        <div class="row desc">
+          <h1 class= "lg"> This is me.</h1>
+        </div>
+        <br>
+        <div class="row desc" margin ="0px">
+          <h2 class="med"> Previously: 
+            <br> 
+            Backend @PlanGrid (AutoDesk)
+            <br>
+            <span class = "highlight"> <a href="https://youtu.be/OerscxzGfWI" target="_blank"> Data/Product @TunnelBear (McAfee)</a></span> 
+            <br> 
+            Product @Vidyard</h2>
+            <br>
+        </div>
+        <div class="row desc" margin = "0px">
+          <h2 class="med"><br> I’m a Systems Design Engineering student at the University of Waterloo. I love trying on different kinds of hats wherever I go (particularly partial to these ones, though). I excel at picking up new skills quickly, adapting to changing environments, and I never back away from a challenge. 
+          <br><br>
+          Currently, I’m challenging myself to: 
+          <br><br>
+              - train for a <span class="highlight"><a href="https://strava.com/athletes/amyjian" target="_blank">marathon/half iron man </a></span>
+          <br>
+              - develop & speak my own opinions 
+          <br>
+              - finish an entire jar of peanut butter in 1 week
+          <br>
+              - convince my parents to <span class="highlight"><a href="https://freekoreandogs.org" target="_blank"> adopt a korean rescue dog </a></span>
+          <br><br>
+          Like what you see? Shoot me a message so we can chat!
+            </h2>
+        </div>
+          <form action="https://formspree.io/mvowgrod" method="POST">
+            <div class="row desc">
+              <div class="col-6 prompts">
+                <h2 class="med"> name: <br><input type="text" name="name"></h2>
+              </div>
+              <div class="col-6 prompts">
+                <h2 class="med"> email: <br><input type="text" name="_replyto"></h2>
+              </div>
+            </div>
+            <div class="row desc">
+              <h2 class="med" id="msg"> message: <br><textarea name="message" id="msgtxt" height="100px"></textarea></h2>
+            </div>
+            <div class="row desc">
+              <button type="submit" id="btn"><h2 class="med" id="btn">send!</button></h2>
+            </div>
+          </form>
+          <br>
+      </div>
+    </div>
+    </div>
+    
+  </div>
+</div>
 <div class="footer">
-	<canvas id="canvas"> </canvas>
+  <canvas id="canvas"> </canvas>
 
 <script id="rendered-js">
       var canvas = document.querySelector('canvas');
@@ -176,7 +209,7 @@ function resizeCanvas() {
 }
       //# sourceURL=pen.js
     </script>
-	</div>
+  </div>
 
 </body>
 </html>
