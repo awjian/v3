@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 html,body {
   background-color: white;
@@ -10,7 +10,7 @@ html,body {
     min-height: 100%
     position: relative;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: lighter;
     display: table;
 }
 
@@ -99,7 +99,7 @@ canvas {
 
 .highlight {
   padding-right: 10px;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #F7EAE5 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #F5F5F5 50%);
 }
 
 #msg {
@@ -115,7 +115,7 @@ canvas {
 #btn {
   cursor: pointer;
   padding: 2px 5px;
-  background-color: #F7EAE5;
+  background-color: #F5F5F5;
   border-width: 0;
   text-align: center;
   margin: 0;
@@ -133,7 +133,7 @@ h1 {
 }
 
 h1 span {
-  background:#F7EAE5;
+  background:#F5F5F5;
   padding: 10px;
 
 }
