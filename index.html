@@ -44,7 +44,7 @@
     </div>
     <div class="row" id = "intro">
       <div class="col-lg-4 me">
-        <img src="amy.jpg" class ="img">
+        <img id="myImage" src="amy.jpg" class ="img">
       </div>
       <div class="col-lg-8 desc">
         <!--<div class="content">-->
@@ -70,7 +70,7 @@
           <div class="row desc" margin = "0px">
             <h2 class="med" ><br><span STYLE="font-weight: 400"> Want to know more? Connect with me via <span class="highlight2"><a href="mailto:amy.jian@uwaterloo.ca" target="_blank">email </a></span>or <span class="highlight2"><a href= "https://www.linkedin.com/in/amyjian/" target="_blank"> LinkedIn</a></span>! </span> You can also <button id="btn" onClick="readMore()">continue reading</button>.<br><br>
             <div id = "readMoreDiv" style="display:none;">
-              I'm a huge fan of wearing different kinds of hats wherever I go - product thinking caps, engineering hard hats, dad hats - I love them all. I excel at picking up new skills quickly, adapting to changing environments, and I never back away from a challenge. 
+              I'm a huge fan of wearing different kinds of hats wherever I go - <button id="hat" onClick="productHat()">product thinking caps</button>, <button id="hat" onClick="hardHat()"> engineering hard hats</button>, <button id="hat" onClick="dadHat()">dad hats </button> - I love them all. I excel at picking up new skills quickly, adapting to changing environments, and I never back away from a challenge. 
             <br><br>
             When I'm not scoping out projects at <span class="highlight2"><a href="https:techplusuw.org" target="_blank">Tech+ </a></span>or the best restaurants in my city, I’m pushing myself to: 
             <br><br>
@@ -115,6 +115,34 @@ function readMore() {
     x.style.display = "none";
   }
 }
+
+function productHat(){
+  var x = document.getElementById('myImage')
+  if (x.src == "prodhat.png"){
+    x.src = "amy.jpg"
+  } else {
+    x.src = "prodhat.png"
+  }
+}
+
+function hardHat(){
+  var x = document.getElementById('myImage')
+  if (x.src == "hardhat.png"){
+    x.src = "amy.jpg"
+  } else {
+    x.src = "hardhat.png"
+  }
+}
+
+function dadHat(){
+  var x = document.getElementById('myImage')
+  if (x.src == "dadhat.png"){
+    x.src = "amy.jpg"
+  } else {
+    x.src = "dadhat.png"
+  }
+}
+
 </script>
 </body>
 </html>

@@ -127,6 +127,14 @@ canvas {
   margin: 0;
 }
 
+#hat {
+  cursor: pointer;
+  padding: 0px 0px;
+  background-color: white;
+  background-color: white;
+  border-width: 0;
+}
+
 #readMoreDiv {
   width: 100%;
 }
