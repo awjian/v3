@@ -38,60 +38,54 @@
   <div class="container-fluid">
     <div class="row hello">
       <div class="col-lg-6 lg center" id="hello"><h1><span> Hello! I'm Amy. 🌻 </span></h1></div>
-      <div class="col-lg-6 center" id="links">
-        <div class="row" id="links">
-          <h3 class="md center"><span class="highlight"><a href="https://instagram.com/uber.feats" target="_blank"> feats </a></span></h3>
-        <h3 class="md center"><span class="highlight"><a href="resume.pdf" target="_blank"> resume </a></span></h3>
-          
-        <h3 class="md center"><span class="highlight"><a href= "https://www.linkedin.com/in/amyjian/" target="_blank">  linkedin </a></span></h3>
-          
-        <h3 class="md center"><span class="highlight"><a href="mailto:amy.jian@uwaterloo.ca" target="_blank"> email </a></span></h3>
-          
-        <h3 class="md center"><span class="highlight"><a href="https://medium.com/@amywjian" target="_blank"> medium </a></span></h3>
+      <div class="col-lg-6 center" id="links">          
       </div>
       </div>
     </div>
     <div class="row" id = "intro">
-      <div class="col-lg-6 me">
+      <div class="col-lg-4 me">
         <img src="amy.jpg" class ="img">
       </div>
-      <div class="col-lg-6 desc">
-        <div class="content">
+      <div class="col-lg-8 desc">
+        <!--<div class="content">-->
           <div class="row desc">
             <h1 class= "lg"> This is me.</h1>
           </div>
           <br>
           <div class="row desc" margin ="0px">
-            <h2 class="med"> I’m a Systems Design Engineering student at the University of Waterloo. <span STYLE="font-weight: 900"> Currently, I'm working on revolutionizing the user experience of digital construction solutions as a Product Management intern at Autodesk.</span>
+            <h2 class="med"> I’m a Systems Design Engineering student at the University of Waterloo, currently seeking <span STYLE="font-weight: 400"> Summer 2021 internships and 2021 New Grad opportunities in Product Management.</span>
               <br><br>
 
-              Previously: 
-              <br> 
-              Backend @Autodesk
-              <br>
-              <span class = "highlight"> <a href="https://youtu.be/OerscxzGfWI" target="_blank"> 
-                Data/Product @TunnelBear (McAfee)</a>
+              Previously:
+              <br> <br>
+              2020: Revolutionizing the user experience of digital construction solutions, <span STYLE="font-weight: 400"> Backend/Product @Autodesk </span>
+              <br><br>
+              
+              2019: Creating a safe and secure internet for everyone, <span STYLE="font-weight: 400" class = "highlight"> <a href="https://youtu.be/OerscxzGfWI" target="_blank"> Data/Product @TunnelBear (McAfee)</a>
               </span> 
-              <br> 
-              Product @Vidyard</h2>
+              <br><br>
+              2018: Reimagining the way sales and marketing departments use video, <span STYLE="font-weight: 400"> Product @Vidyard</span></h2>
               
           </div>
           <div class="row desc" margin = "0px">
-            <h2 class="med"><br> I'm a huge fan of wearing different kinds of hats wherever I go - product thinking caps, engineering hard hats, dad hats - I love them all! I excel at picking up new skills quickly, adapting to changing environments, and I never back away from a challenge. 
+            <h2 class="med" ><br><span STYLE="font-weight: 400"> Want to know more? Connect with me via <span class="highlight2"><a href="mailto:amy.jian@uwaterloo.ca" target="_blank">email </a></span>or <span class="highlight2"><a href= "https://www.linkedin.com/in/amyjian/" target="_blank"> LinkedIn</a></span>! </span> You can also <button id="btn" onClick="readMore()">continue reading</button>.<br><br>
+            <div id = "readMoreDiv" style="display:none;">
+              I'm a huge fan of wearing different kinds of hats wherever I go - product thinking caps, engineering hard hats, dad hats - I love them all. I excel at picking up new skills quickly, adapting to changing environments, and I never back away from a challenge. 
             <br><br>
-            When I'm not scoping out projects or the best restaurants in my city, I’m pushing myself to: 
+            When I'm not scoping out projects at <span class="highlight2"><a href="https:techplusuw.org" target="_blank">Tech+ </a></span>or the best restaurants in my city, I’m pushing myself to: 
             <br><br>
               - train for a <span class="highlight"><a href="https://strava.com/athletes/amyjian" target="_blank">marathon/half iron man </a></span>
             <br>
               - produce less waste, and eat more plant-based 
             <br>
-              - convince my parents to <span class="highlight"><a href="https://freekoreandogs.org" target="_blank"> adopt a korean rescue dog </a></span>
+              - convince my parents to <span class="highlight2"><a href="https://freekoreandogs.org" target="_blank"> adopt a korean rescue dog </a></span>
             <br>
               - finish an entire jar of peanut butter in 1 week (current record is 2 weeks)
             <br><br>
-            Want to know more? Shoot me a message so we can chat!
+            </div>
             </h2>
           </div>
+          <!--
           <form action="https://formspree.io/mvowgrod" method="POST">
             <div class="row desc">
               <div class="col-6 prompts">
@@ -107,10 +101,20 @@
             <div class="row desc">
               <button type="submit" id="btn"><h2 class="med" id="btn">send</button></h2>
             </div>
-          </form>  
-        </div>
+          </form>-->
+        <!--</div>-->
       </div>
     </div>
   </div>
+  <script>
+function readMore() {
+  var x = document.getElementById("readMoreDiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
 
 html,body {
   background-color: white;
@@ -9,7 +10,7 @@ html,body {
     height: 100%;
     min-height: 100%
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: lighter;
     display: table;
 }
@@ -85,7 +86,7 @@ canvas {
 }
 
 .med {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
 }
 
@@ -99,7 +100,11 @@ canvas {
 
 .highlight {
   padding-right: 10px;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #F5F5F5 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #E2E9F8 50%);
+}
+
+.highlight2{
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #E2E9F8 50%);
 }
 
 #msg {
@@ -114,11 +119,16 @@ canvas {
 
 #btn {
   cursor: pointer;
-  padding: 2px 5px;
-  background-color: #F5F5F5;
+  padding: 0px 0px;
+  /*background-color: #E2E9F8;*/
+  background-color: white;
   border-width: 0;
   text-align: center;
   margin: 0;
+}
+
+#readMoreDiv {
+  width: 100%;
 }
 
 .prompts{
@@ -133,7 +143,7 @@ h1 {
 }
 
 h1 span {
-  background:#F5F5F5;
+  background:#E2E9F8;
   padding: 10px;
 
 }
