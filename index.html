@@ -58,10 +58,10 @@
 
               Previously:
               <br> <br>
-              2020: Revolutionizing the user experience of digital construction solutions, <span STYLE="font-weight: 400"> Backend/Product @Autodesk </span>
+              2020: Revolutionizing the user experience of digital construction solutions, <span STYLE="font-weight: 400"> Backend&Product @Autodesk </span>
               <br><br>
               
-              2019: Creating a safe and secure internet for everyone, <span STYLE="font-weight: 400" class = "highlight"> <a href="https://youtu.be/OerscxzGfWI" target="_blank"> Data/Product @TunnelBear (McAfee)</a>
+              2019: Making the internet a safe and secure for everyone, <span STYLE="font-weight: 400" class = "highlight"> <a href="https://youtu.be/OerscxzGfWI" target="_blank"> Data&Product @TunnelBear (McAfee)</a>
               </span> 
               <br><br>
               2018: Reimagining the way sales and marketing departments use video, <span STYLE="font-weight: 400"> Product @Vidyard</span></h2>
@@ -118,7 +118,7 @@ function readMore() {
 
 function productHat(){
   var x = document.getElementById('myImage')
-  if (x.src == "prodhat.png"){
+  if (x.getAttribute('src') === "prodhat.png"){
     x.src = "amy.jpg"
   } else {
     x.src = "prodhat.png"
@@ -127,7 +127,7 @@ function productHat(){
 
 function hardHat(){
   var x = document.getElementById('myImage')
-  if (x.src == "hardhat.png"){
+  if (x.getAttribute('src') === "hardhat.png"){
     x.src = "amy.jpg"
   } else {
     x.src = "hardhat.png"
@@ -136,7 +136,7 @@ function hardHat(){
 
 function dadHat(){
   var x = document.getElementById('myImage')
-  if (x.src == "dadhat.png"){
+  if (x.getAttribute('src') === "dadhat.png"){
     x.src = "amy.jpg"
   } else {
     x.src = "dadhat.png"
